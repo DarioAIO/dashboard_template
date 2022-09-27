@@ -1,0 +1,158 @@
+@font-face {
+  font-family: Inter-Regular;
+  src: url(fonts/Inter-Regular.ttf)
+}
+
+body{
+  background-color: #181818;
+}
+
+.center-div {
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); 
+  border-radius: 27px;
+  background: #262626;
+  padding: 20px; 
+  width: 800px;
+  height: 170px; 
+  border: 1px solid #1a1a1a;
+  user-select: text;
+  text-align: left;
+  font-family: Inter-Regular;
+  filter: drop-shadow(0px 5px 4px #000000);
+}
+
+.h1 {
+  position: relative;
+  bottom: 35px;
+}
+
+.div-1 {
+  position: relative;
+  display:inline-block;
+  bottom: 60px;
+  line-height: 13px;
+}
+
+.div-2 {
+  line-height: 13px;
+}
+
+.dwn-btn {
+  color: #ffffff;
+  width: 130px;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center; 
+  padding: 0;
+  border: 0;
+  background-color: #433F3F; 
+  font-family: Inter-Regular;
+  margin-top: 20px;
+  margin-right: 20px;
+  position:absolute;
+  top:0;
+  right:0;
+  cursor: pointer;
+
+}
+
+.dwn-btn:hover {
+  border: 1px solid white;
+}
+
+.pass-btn {
+  color: #ffffff;
+  width: 130px;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center; 
+  padding: 0;
+  border: 0;
+  background-color: #433F3F; 
+  font-family: Inter-Regular;
+  margin-top: 60px;
+  margin-right: 20px;
+  position:absolute;
+  top:0;
+  right:0;
+  cursor: pointer;  
+}
+
+.pass-btn:hover {
+  border: 1px solid white;
+}
+
+.payment-btn {
+  color: #ffffff;
+  width: 130px;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center; 
+  padding: 0;
+  border: 0;
+  background-color: #433F3F; 
+  font-family: Inter-Regular;
+  margin-top: 100px;
+  margin-right: 20px;
+  position:absolute;
+  top:0;
+  right:0;
+  cursor: pointer;  
+}
+
+.payment-btn:hover {
+  border: 1px solid white;
+}
+
+.logout-btn {
+  color: #ffffff;
+  width: 130px;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center; 
+  padding: 0;
+  border: 0;
+  background-color: #433F3F; 
+  font-family: Inter-Regular;
+  margin-top: 140px;
+  margin-right: 20px;
+  position:absolute;
+  top:0;
+  right:0;
+  cursor: pointer;  
+}
+
+.logout-btn:hover {
+  border: 1px solid white;
+}
+
+.license-text {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  box-sizing: border-box;
+  display:block; 
+  width:100%;
+  padding:0;
+  border-width:0
+}
+
+.password-text {
+  display: none;  
+}
+
+.license-text:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  user-select: none;
+}
+
+.hwid-text:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  user-select: none;  
+}

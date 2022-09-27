@@ -1,0 +1,5 @@
+fastapi==0.85.0
+pydantic==1.8.2
+pymongo==3.12.3
+starlette==0.16.0
+uvicorn==0.16.0
