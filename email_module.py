@@ -11,8 +11,8 @@ def send_email(email, email_code):
 
         smtpObj.ehlo()
         smtpObj.starttls()
-        smtpObj.login('dashboard.api@outlook.com', "Password4567?!") 
-        smtpObj.sendmail('dashboard.api@outlook.com', email, body)
+        smtpObj.login('automation.dash@outlook.com', "Password12346!") 
+        smtpObj.sendmail('automation.dash@outlook.com', email, body)
 
         smtpObj.quit()
         return True
